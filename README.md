@@ -2,7 +2,7 @@
 
 To run this app in your system, folllow the steps
 
-## `git clone `
+## `git clone https://github.com/sreehari666/movie-finder.git`
 
 This will download the repository
 
