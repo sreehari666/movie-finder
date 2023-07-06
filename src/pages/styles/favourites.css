@@ -1,0 +1,18 @@
+.fav-container-outer{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.975),rgba(38, 38, 38, 0.079));
+    margin-top: 0;
+}
+.fav-container{
+    padding: 20px;
+    width: 100%;
+    margin:0 auto;
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.fav-heading{
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 0;
+    padding-top: 50px;
+}

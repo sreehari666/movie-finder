@@ -1,0 +1,77 @@
+.home-search-container{
+    background-image: url('https://wallpaper.dog/large/20493501.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.312);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 100px;
+
+}
+.home-search-input{
+    height: 40px;
+    width: 40%;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #ffffffc3;
+    border: none;
+}
+.home-search-input:focus{
+    outline: none;
+    background-color: #fff;
+}
+.home-mylist-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.748);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.home-search-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.home-movie-container{
+    padding: 30px;
+    width: 100%;
+    margin:0 auto;
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-image: linear-gradient(rgb(38, 38, 38), rgba(0, 0, 0, 0.975));
+}
+.pagination-container{
+    color:#fff;
+    font-size: 14px;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.pagination-container a {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.pagination-container a:hover {
+    background-color: #fff;
+    color: black;
+    
+}
+.pagination-active a {
+    background-color: #fff;
+    color: black;
+}
